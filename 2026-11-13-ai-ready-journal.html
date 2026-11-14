@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-11-13 TechOrange AI Ready 期刊筆記</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 28px 16px;
+    background-color: #f4efe6;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+    color: #2b2b2b;
+    line-height: 1.85;
+  }
+  .notebook-sheet {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #fffdf7;
+    background-image:
+      linear-gradient(90deg, transparent 48px, #f2b8b5 48px, #f2b8b5 50px, transparent 50px),
+      repeating-linear-gradient(to bottom, transparent 0px, transparent 31px, #e3ecf5 32px);
+    border: 2.5px solid #3c3a36;
+    border-radius: 18px 24px 20px 16px / 22px 16px 24px 18px;
+    box-shadow: 6px 8px 0px rgba(60, 58, 54, 0.16);
+    padding: 40px 44px 44px 68px;
+    position: relative;
+  }
+  .washi-tape {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-1.5deg);
+    width: 190px;
+    height: 28px;
+    background: rgba(255, 213, 128, 0.78);
+    border-left: 2px dashed rgba(168, 124, 52, 0.45);
+    border-right: 2px dashed rgba(168, 124, 52, 0.45);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #5c5852;
+  }
+  .badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1.5px solid #3c3a36;
+    border-radius: 999px;
+    background: #fff3cd;
+    font-weight: 700;
+    color: #3c3a36;
+  }
+  .badge-blue {
+    background: #e3f2fd;
+    border-color: #1565c0;
+    color: #1565c0;
+  }
+  h1.journal-title {
+    font-size: 24px;
+    line-height: 1.45;
+    margin: 6px 0 22px 0;
+    color: #1f1e1c;
+    border-bottom: 2.5px dashed #3c3a36;
+    padding-bottom: 14px;
+  }
+  h2.section-heading {
+    display: inline-block;
+    font-size: 18px;
+    margin: 22px 0 10px 0;
+    padding: 3px 14px;
+    background: #fef6d8;
+    border: 2px solid #3c3a36;
+    border-radius: 12px 16px 14px 10px;
+    box-shadow: 3px 3px 0px #3c3a36;
+    color: #1f1e1c;
+  }
+  .blue-highlight {
+    color: #1565c0;
+    font-weight: 700;
+  }
+  p {
+    margin: 8px 0 14px 0;
+    font-size: 15.5px;
+  }
+  .compare-card {
+    background: rgba(255, 255, 255, 0.86);
+    border: 2px solid #3c3a36;
+    border-radius: 14px 18px 15px 12px;
+    padding: 14px 18px;
+    margin: 12px 0;
+    box-shadow: 3px 4px 0px rgba(60, 58, 54, 0.12);
+  }
+  .reflection-box {
+    background: #f0f7ff;
+    border: 2px dashed #1565c0;
+    border-radius: 16px 12px 18px 14px;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  .glossary-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  .glossary-list li {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1.8px solid #3c3a36;
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .divider-sketch {
+    border: 0;
+    border-top: 2.5px dashed #8c857b;
+    margin: 30px 0 22px 0;
+  }
+  .source-section h2 {
+    font-size: 17px;
+    color: #3c3a36;
+    margin-bottom: 12px;
+  }
+  .source-list {
+    padding-left: 20px;
+    margin: 0;
+  }
+  .source-list li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .source-list a {
+    color: #1565c0;
+    text-decoration: none;
+    border-bottom: 1px dotted #1565c0;
+  }
+  .source-list a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    .notebook-sheet {
+      padding: 32px 20px 32px 32px;
+    }
+  }
+</style>
+</head>
+<body>
+  <article class="notebook-sheet">
+    <div class="washi-tape" aria-hidden="true"></div>
+    <div class="meta-bar">
+      <span class="badge">📅 2026-11-13 期刊筆記</span>
+      <span class="badge badge-blue">TechOrange AI Ready 電子報（20 則情報）</span>
+      <span>#AI人工智慧 #產業競爭 #創新+創意</span>
+    </div>
+
+    <h1 class="journal-title">2026-11-13 AI Ready 科管觀察：台積電大動作直投 AI 模型巨頭，製造業如何避開「資料引力」陷阱將 Token 轉為護城河？</h1>
+
+    <section>
+      <h2 class="section-heading">📌 新聞整體摘要</h2>
+      <p>
+        今日全球科技動態迎來極具戰略縱深的重大轉折：半導體晶圓製造霸主台積電（TSMC）正式核准新台幣 1.34 兆元資本預算，並罕見通過以最高各 5 億美元認購 OpenAI 與 Anthropic 股權，宣告從「代工供應商」大步跨入「核心模型股東」的新型態共生生態。與此同時，企業 AI 落地正深陷「試點容易、擴大維運昂貴」的真實陣痛。Dell 與業界專家指出，高達 95% 的生成式 AI 試點對營收無可量化貢獻，癥結在於忽視了跨系統遷移難題——即<strong class="blue-highlight">資料引力（Data Gravity）</strong>所帶來的隱形稅；大世科、HPE 與和碩則在製造業戰略對話中疾呼，企業不能放任 Token 隨意燃燒，必須透過貨櫃機房（AI CDC）與雲地混合架構自建高稼動率算力，將 Token 成本大幅壓縮至公有雲的十分之一。在實體 AI 與資安前沿，軟銀以 85 億美元估值領投 Agile Robots 5 億美元，Runway 推出 Praxis-1 機器人世界行動模型，而 Salesforce 揭露新型態 ARTEX 代理攻擊手法，警示自主代理安全治理已刻不容緩。
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-heading">⚖️ 多篇新聞深度比較</h2>
+      <div class="compare-card">
+        <p><strong class="blue-highlight">1. 純硬體代工 vs. 資本與生態深度捆綁：</strong>台積電過往維持純晶圓代工中立原則，如今重金投資 OpenAI 與 Anthropic，反映先進製程與最先進模型已形成高度依存的雙向共創關係，藉由股權投資鎖定未來數年算力代工剛需。</p>
+      </div>
+      <div class="compare-card">
+        <p><strong class="blue-highlight">2. 集中化資料倉儲 vs. 就地運算上下文層（Context Layer）：</strong>傳統思維試圖將分散各部門的巨量數據集中儲存，卻引發龐大頻寬成本與法規主權限制等「資料引力」隱形稅；現代架構轉向以中繼資料與向量檢索就地讀取業務上下文，避免盲目遷移。</p>
+      </div>
+      <div class="compare-card">
+        <p><strong class="blue-highlight">3. 自由調用外部工具 vs. 代理工廠集中治理：</strong>製造業早期放任員工各自串接公有雲模型，不僅面臨機密外洩且成本失控；大世科與和碩提出透過企業內部 OneAi Agent Factory，以政策即程式碼（Policy as Code）追蹤每個代理的 Token 轉換率與省工效益。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-heading">💡 課後延伸思考（科管人視角）</h2>
+      <div class="reflection-box">
+        <p><strong class="blue-highlight">思考 1（代工巨頭的競合界線）：</strong>台積電直接參股 OpenAI 與 Anthropic 後，在面對既有重量級客戶（如 NVIDIA、AMD 等自研晶片與演算法的業者）時，應如何維持技術中立信賴與客戶資產保護的戰略防火牆？</p>
+        <p style="margin-bottom:0;"><strong class="blue-highlight">思考 2（資料引力下的架構決策）：</strong>面對不可任意遷移的歷史製程數據，企業應如何平衡「雲端彈性微調」與「地端邊緣推理」的投資比重，以最大化算力轉化率（Compute ROI）？</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-heading">📖 核心專有名詞筆記字典 (Glossary)</h2>
+      <ul class="glossary-list">
+        <li><strong class="blue-highlight">Data Gravity（資料引力）：</strong>資料集規模越大、越具法規限制時，其吸引相關應用與分析工具就地運算之吸引力，盲目移動將產生高昂延遲與治理成本。</li>
+        <li><strong class="blue-highlight">Container Data Center, CDC（貨櫃型模組化資料中心）：</strong>預先整合高密度算力、供電配電與液冷散熱模組之標準化貨櫃機房，可大幅縮減晶圓廠地端算力建置時程。</li>
+        <li><strong class="blue-highlight">World Action Model, WAM（世界行動模型）：</strong>超越純文字或視覺生成，能深刻理解物理空間動態與因果反饋，以預測並生成機器人實體動作軌跡的 AI 模型。</li>
+        <li><strong class="blue-highlight">ModelOps（模型營運化生命週期管理）：</strong>涵蓋企業 AI 模型與代理之開發、部署、版本控制、資料回饋與即時效能監控的一體化運營工程框架。</li>
+      </ul>
+    </section>
+
+    <hr class="divider-sketch">
+
+    <section class="source-section">
+      <h2>📰 原信件新聞標題與連結清單（2026-11-13 全 20 則）</h2>
+      <ol class="source-list" style="list-style: none; padding-left: 0;">
+        <li><a href="https://techorange.com/2026/11/12/tsmc-capex-openai-anthropic-investment/" target="_blank" rel="noopener noreferrer">1. 【科技早餐】台積電核准 1.34 兆元資本預算！擬投 OpenAI、Anthropic 最高 10 億美元</a></li>
+<li><a href="https://prnewswire.com/apac/zh/news-releases/anyinsight-edge--ai--llm--ai-agent--302937573.html" target="_blank" rel="noopener noreferrer">2. AnyInsight Edge 正式推出：私有 AI 不再是孤島，企業同時擁有地端 LLM 的自主掌控與 AI Agent 的生產力</a></li>
+<li><a href="https://dev.to/mikefluff/nvidia-releases-gr00t-2-open-robot-model-and-isaac-lab-30-2mbh" target="_blank" rel="noopener noreferrer">3. NVIDIA 發布 GR00T 2 開放機器人模型與 Isaac Lab 3.0</a></li>
+<li><a href="https://salesforce.com/blog/artex-agentic-ai-attacks" target="_blank" rel="noopener noreferrer">4. AI 代理攻擊來襲：ARTEX 案例觀察與組織防護策略</a></li>
+<li><a href="https://techorange.com/2026/11/12/tisi-hpe-pegatron-ai-cdc/" target="_blank" rel="noopener noreferrer">5. 「如何讓燒掉的 Token 轉化為企業競爭力？」大世科、HPE、和碩解析製造業 AI 規模化關鍵</a></li>
+<li><a href="https://qz.com/softbank-agile-robots-500-million-funding-valuation-111226" target="_blank" rel="noopener noreferrer">6. 軟銀領投 Agile Robots 5 億美元融資,估值達 85 億美元</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/vanta-launches-ai-governance-risk-quantification-and-a-vanta-agent-for-entire-jobs" target="_blank" rel="noopener noreferrer">7. Vanta 推出 AI 治理、風險量化與全職工作 Vanta Agent</a></li>
+<li><a href="https://techorange.com/2026/11/12/data-gravity-hidden-ai-tax-on-enterprise/" target="_blank" rel="noopener noreferrer">8. 「資料引力」讓 AI 試點成功、擴大卻失敗，企業如何避免承擔 AI 隱形稅？</a></li>
+<li><a href="https://therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available" target="_blank" rel="noopener noreferrer">9. Runway 推出機器人世界行動模型 Praxis-1</a></li>
+<li><a href="https://scmp.com/news/hong-kong/article/3374119/when-ai-agents-go-rogue-who-can-hong-kong-hold-accountable" target="_blank" rel="noopener noreferrer">10. 當 AI 代理失控，香港能追究誰的責任？</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/horizon3-launches-adversarial-intelligence-frontier-lab-built-on-nodezero-attack-data" target="_blank" rel="noopener noreferrer">11. Horizon3 推出基於 NodeZero 攻擊數據的對抗智能前沿實驗室</a></li>
+<li><a href="https://nbcnews.com/video/as-u-s-pushes-back-on-data-centers-china-races-to-build-them-273308229709" target="_blank" rel="noopener noreferrer">12. 美國限縮資料中心建設,中國加速興建以趕上競爭</a></li>
+<li><a href="https://businessinsider.com/he-wants-to-build-americas-robotics-giant-will-washington-help-2026-11" target="_blank" rel="noopener noreferrer">13. 這位創辦人押注華盛頓助其打造美國機器人巨擘</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna" target="_blank" rel="noopener noreferrer">14. Google 改造 Kubernetes 以支援 AI 代理，而非打造全新架構</a></li>
+<li><a href="https://therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments" target="_blank" rel="noopener noreferrer">15. Viam Launchpad 旨在加速機器人部署</a></li>
+<li><a href="https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding" target="_blank" rel="noopener noreferrer">16. 英國推論晶片開發商 Fractile 籌得 7.2 億美元資金</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/data-observability-becomes-must-ai-agents-build-databases-kubeconna" target="_blank" rel="noopener noreferrer">17. 自建資料庫的代理促使數據基礎重新思考</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs" target="_blank" rel="noopener noreferrer">18. 獲得 2,300 萬美元融資，Luminal 成為最新挑戰 Nvidia CUDA 護城河的新創公司</a></li>
+<li><a href="https://siliconangle.com/2026/11/12/nebuly-wants-to-help-enterprises-understand-exactly-what-their-ai-investments-are-worth-after-raising-21m" target="_blank" rel="noopener noreferrer">19. Nebuly 籌得 2100 萬美元後，助企業精確掌握 AI 投資價值</a></li>
+<li><a href="https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands" target="_blank" rel="noopener noreferrer">20. Nectar 推出 AI 代理，自動化品牌創作者探索與接觸</a></li>
+      </ol>
+    </section>
+  </article>
+</body>
+</html>
